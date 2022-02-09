@@ -1,0 +1,62 @@
+.heading {
+    font-size: 2.4em !important;
+    /* padding-left: 50px !important; */
+    color:white
+  }
+
+  .headingname {
+    font-size: 2.5em !important;
+    padding-left: 45px !important;
+    color:white
+  }
+  .mainname {
+    color: #cd5ff8;
+  }
+  .introParagraphWrapper{
+      color:white;
+      justify-content: center;
+      padding-top: 200px;
+    /* padding-bottom: -5px; */
+      padding-left: 150px;
+      font-size: 1.25rem;
+      
+  
+  }
+  .imagewrapper{
+    justify-content: center;
+    padding-top: 200px;
+    /* padding-bottom: 49px; */
+    padding-left: 150px;
+
+  }
+  .testimonial{
+    color: rgb(155, 126, 172);
+  }
+  .professionalSkillHeading{
+    color: #fff!important;
+    font-size: 2.3em!important;
+    font-weight: 500!important;
+    padding-top: 10px!important;
+    margin: auto;
+    width: 60%;
+    margin-left: 39%;
+    }
+  .iconWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    }
+  .techIcon{
+    font-size: 4.5em!important;
+    margin: 15px!important;
+    padding: 10px!important;
+    opacity: .93!important;
+    border: 1.7px solid rgba(200,137,230,.637)!important;
+    vertical-align: middle!important;
+    text-align: center!important;
+    border-radius: 5px!important;
+    display: table!important;
+    box-shadow: 4px 5px 4px 3px rgba(89,4,168,.137)!important;
+    overflow: hidden!important;
+    transition: all .4s ease 0s!important;
+    background-color: white;
+  }

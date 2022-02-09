@@ -1,0 +1,27 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    overflow: auto;
+    display:flex;
+    justify-content: flex-end;
+  }
+  .sidebar a {
+    display: block;
+    color:white;
+    padding: 16px;
+    text-decoration: none;
+    margin-right:78px;
+  }
+
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
