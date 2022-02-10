@@ -1,0 +1,23 @@
+.headingname {
+    font-size: 2.5em !important;
+    padding-left: 45px !important;
+    color:white;
+    margin: auto;
+    width: 24%;
+  }
+  .mainname {
+    color: #cd5ff8;
+  }
+  .imagewrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3px;
+  }
+  .emailwrapper{
+    font-size: 1.5em !important;
+    padding-left: 45px !important;
+    color:white;
+    margin: auto;
+    width: 24%;
+  }

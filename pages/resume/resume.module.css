@@ -1,4 +1,9 @@
 .resumecontainer {
+  margin: auto;
+    width: 65%;
+  }
+  .downloadButton{
+    padding: 4.5em;
     margin: auto;
-   
+    width: 25%;
   }

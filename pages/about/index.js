@@ -1,5 +1,5 @@
-import { SimpleGrid, Box } from '@chakra-ui/react'
-import { Image } from '@chakra-ui/react'
+import { SimpleGrid, Box } from '@chakra-ui/react';
+import { Image } from '@chakra-ui/react';
 import styles from "./about.module.css";
 import {
   List,
@@ -23,7 +23,7 @@ export default function Home() {
           <span>Apart from coding, some other activities that I love to do!</span>
           <UnorderedList>
             <ListItem>Travelling</ListItem>
-            <ListItem>Playin Cricket</ListItem>
+            <ListItem>Playing Cricket</ListItem>
             <ListItem>Birds Keeping</ListItem>
           </UnorderedList>
           <p className={styles.testimonial}>"Compromise for your Dream but NEVER Compromise on your Dream."</p>
@@ -32,7 +32,6 @@ export default function Home() {
       <Box >
         <div className={styles.imagewrapper}>
                 <Image
-                 borderRadius='full'
                  src='/about.aee0f771.png'
                  objectFit='cover'
                  height="500px"
@@ -102,7 +101,7 @@ export default function Home() {
                  />
                  </div>
               </div>
-         </div> 
+         </div>
       </Box>
       <Box  bg ="black" gridArea= "8 / 1 / span 2 / span 2;">
         <div>
@@ -137,9 +136,9 @@ export default function Home() {
                  />
                  </div>
                </div>
-         </div> 
+         </div>
       </Box>
     </SimpleGrid>
-     
+
   )
 }

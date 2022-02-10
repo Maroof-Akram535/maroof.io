@@ -1,5 +1,5 @@
 .slider{
-  
+
     transition-property: width;
     transition-duration: 1s;
     transition-timing-function: linear;
@@ -8,4 +8,15 @@
 .imageContainer{
     width:500px;
     height: 500px;
+}
+.arrowLeftButton{
+    color: white;
+    background-color: black;
+    opacity: 30.4
+}
+.arrowRightButton{
+   color: white;
+    background-color: black;
+    float: right;
+    opacity: 30.4
 }
