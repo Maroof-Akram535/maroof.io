@@ -17,8 +17,8 @@ export default function Home() {
             Know Who I'M
           </h3>
           <p>
-            Hi Everyone,<strong className={styles.mainname}> I am  Maroof Akram</strong> from <strong className={styles.mainname}>Lahore, Pakistan.</strong>
-            I am working as Software Engineer for last 1 Year with experience in building websites for small and medium-sized businesses.
+            Hi Everyone,<strong className={styles.mainname}> I'm  Maroof Akram</strong> from <strong className={styles.mainname}>Lahore, Pakistan. </strong>
+            I am working as a Software Engineer for the last 1 Year with experience in building websites for small and medium-sized businesses.
           </p>
           <span>Apart from coding, some other activities that I love to do!</span>
           <UnorderedList>

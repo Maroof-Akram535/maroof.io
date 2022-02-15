@@ -1,18 +1,18 @@
 import { SimpleGrid, Box } from '@chakra-ui/react'
 import styles from "./home.module.css";
-import { Image } from '@chakra-ui/react'
+import { Image } from '@chakra-ui/react';
 export default function Home() {
   return (
     <SimpleGrid columns={2} bg="black">
-      <Box h='100vh'>
+      <Box >
         <div className={styles.imagewrapper}>
-                <Image
-                 borderRadius='50%'
-                 src='/maroof.png'
-                 />
+          <Image
+            borderRadius='50%'
+            src='/maroof.png'
+          />
         </div>
       </Box>
-      <Box h='100vh'>
+      <Box >
         <div className={styles.nameWrapper}>
           <h1 className={styles.heading}>
             Hi There! <span className={styles.wave} >👋🏻</span>

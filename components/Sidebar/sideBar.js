@@ -1,12 +1,15 @@
 import Link from 'next/link';
 import styles from './sidebar.module.css';
+import React, { useState } from 'react';
+import { HamburgerIcon } from '@chakra-ui/icons'
 export default function SideBar() {
+    const [navBar, setNavbar] = useState(false);
     return (
         <>
-        <div>
-
-        </div>
-            <div className={styles.sidebar}>
+            <div className={styles.sideBarToggel}>
+            <HamburgerIcon w={6} h={6} onClick={()=>{setNavbar(!navBar)}}/>
+            </div>
+            <div className={navBar?styles.toggledSidebar:styles.sidebar}>
                 <Link href="/home">
                     <a>Home</a>
                 </Link>
