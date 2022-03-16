@@ -13,7 +13,7 @@ export default function ProjectModal({ openModal, onClose, children, modalTitle,
   return (
     <>
       <div>
-        <Modal isOpen={openModal} onClose={() => onClose()} isCentered={true} size="4xl" className={styles.modal}>
+        <Modal isOpen={openModal} onClose={() => onClose()} isCentered={true} size="2xl" className={styles.modal}>
           <ModalContent>
             <ModalHeader>{modalTitle}</ModalHeader>
             <ModalCloseButton />

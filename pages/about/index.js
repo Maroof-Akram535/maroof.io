@@ -34,7 +34,7 @@ export default function Home() {
                 <Image
                  src='/about.aee0f771.png'
                  objectFit='cover'
-                 height="500px"
+                 height="450px"
                  />
         </div>
       </Box>

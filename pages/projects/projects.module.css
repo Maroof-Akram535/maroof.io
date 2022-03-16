@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 90px;
+
   }
   .projectDivWrapper{
     transition: transform .2s;
@@ -29,6 +29,8 @@
     height: 260px;
     box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
     background-color: white;
+    margin-left: 6px;
+    margin-right: 6px;
   }
   .projectDivWrapper:hover {
     -ms-transform: scale(1.5); /* IE 9 */
@@ -40,9 +42,4 @@
 }
 .projectNameDiv{
     text-align: center;
-    font-size: 1.5em !important;
-}
-.isBlurred {
-  /* filter: blur(1px);
-  -webkit-filter: blur(1px); */
 }

@@ -7,7 +7,7 @@ export default function SideBar() {
     return (
         <>
             <div className={styles.sideBarToggel}>
-            <HamburgerIcon w={6} h={6} onClick={()=>{setNavbar(!navBar)}}/>
+            <HamburgerIcon margin="5px" w={6} h={6} onClick={()=>{setNavbar(!navBar)}}/>
             </div>
             <div className={navBar?styles.toggledSidebar:styles.sidebar}>
                 <Link href="/home">

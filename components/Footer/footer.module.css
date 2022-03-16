@@ -1,9 +1,12 @@
+.container{
+  margin-top: 30px;
+
+}
 .headingname {
-    font-size: 2.5em !important;
-    padding-left: 45px !important;
-    color:white;
+    font-size: 1.5em !important;
+     color:white;
     margin: auto;
-    width: 24%;
+    width: fit-content;
   }
   .mainname {
     color: #cd5ff8;
@@ -13,6 +16,11 @@
     flex-direction: row;
     justify-content: center;
     padding: 3px;
+  }
+  .hoverEffect:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.05);
   }
   .emailwrapper{
     font-size: 1.5em !important;

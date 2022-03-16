@@ -1,9 +1,9 @@
 .resumecontainer {
   margin: auto;
-    width: 65%;
+  width:fit-content;
   }
   .downloadButton{
     padding: 4.5em;
     margin: auto;
-    width: 25%;
+    width:fit-content;
   }

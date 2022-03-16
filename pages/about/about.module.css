@@ -31,6 +31,7 @@
   }
   .testimonial{
     color: rgb(155, 126, 172);
+    white-space: nowrap;
   }
   .professionalSkillHeading{
     color: #fff!important;
